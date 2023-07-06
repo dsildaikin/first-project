@@ -17,3 +17,12 @@
  - __cd ~__ — перейди в домашнюю директорию (/Users/Username);
 
  - __cd /__ — перейди в корневую директорию.
+
+ ```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git push"    --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
